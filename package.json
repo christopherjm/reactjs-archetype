@@ -1,0 +1,35 @@
+{
+  "name": "demo-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI package for Demo App",
+  "main": "Application.js",
+  "scripts": {
+    "test": "/",
+    "webpack": "webpack --watch",
+    "build": "webpack && uglifyjs ./build/bundle.js -c -m -o ./build/bundle.min.js --source-map ./build/bundle.min.js.map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "immutable": "^3.8.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.10.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "uglify-js": "^2.7.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  }
+}

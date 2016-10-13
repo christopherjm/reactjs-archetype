@@ -1,0 +1,21 @@
+.header-logo a {
+	display: block;
+	background: url(../images/logo.png) 0 0 no-repeat;
+	width: 300px;
+	height: 102px;
+	margin: 15px 0 0 22px;
+}
+
+.align-right {
+	float: right;
+}
+
+.align-left {
+	float: left;
+}
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #005;
+	background-color: #eee;
+}
